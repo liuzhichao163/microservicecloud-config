@@ -1,0 +1,4 @@
+com\liuzhichao\entity\Dept.class
+com\liuzhichao\config\DeptClientServiceFallbackFactory.class
+com\liuzhichao\service\DeptClientService.class
+com\liuzhichao\config\DeptClientServiceFallbackFactory$1.class

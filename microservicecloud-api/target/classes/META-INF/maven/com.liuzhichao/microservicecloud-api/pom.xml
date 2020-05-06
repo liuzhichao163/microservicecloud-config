@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent><!--声明继承的模块  -->
+    <groupId>com.liuzhichao</groupId>
+    <artifactId>microservicecloud</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  
+  <!--当前模块的名字  -->
+  <artifactId>microservicecloud-api</artifactId>
+  
+  
+  <!--当前模块所需要的jar包，如果父类已将包含了，可以不用写版本号  -->
+  <dependencies>
+  	<dependency>
+  		<groupId>org.projectlombok</groupId>
+     	<artifactId>lombok</artifactId>
+  	</dependency>
+  	<!--feign负载均衡  -->
+  	<dependency>
+     <groupId>org.springframework.cloud</groupId>
+     <artifactId>spring-cloud-starter-feign</artifactId>
+   </dependency>
+  	
+  	
+  </dependencies>
+  
+  
+</project>
